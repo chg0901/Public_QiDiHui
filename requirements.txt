@@ -1,0 +1,21 @@
+beautifulsoup4
+erniebot_agent
+erniebot
+faiss_cpu
+gradio==4.21.0
+urllib3
+langchain_community
+langchain_core
+llama_index
+tqdm
+unstructured
+spacy
+lxml
+llama-index-embeddings-jinaai
+llama-index-llms-openai
+llama-index-vector-stores-faiss
+jieba
+llama-index-embeddings-langchain
+
+# Install appbuilder-sdk at last, some features still need erniebot
+appbuilder-sdk==0.7.0
