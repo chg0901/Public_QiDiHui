@@ -4,11 +4,15 @@ erniebot
 faiss_cpu
 gradio==4.21.0
 modelscope_studio
+rank_bm25
+requests
+packaging
+tqdm
+packaging
 urllib3
 langchain_community
 langchain_core
 llama_index
-tqdm
 unstructured
 spacy
 lxml
