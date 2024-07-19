@@ -121,41 +121,7 @@ async def chat_bot_with_llm_image(_input: mgr.MultimodalInput, _chatbot):
                 chat_bot_2: _chatbot,
             }
 
-
-    for path_dict in image_paths:
-        image_path = './data/data269367/OEBPS/' + path_dict['path']
-        _chatbot[-1][1][0] += f"""
-<div style="text-align:center">
-    <img style="width: 100%; border-radius: 0.32em;
-    box-shadow: 0 2px 5px 0 rgba(35,36,38,.12),0 2px 10px 0 rgba(35,36,38,.08);" 
-    src="{image_path}">
-    <br>
-    <div style="color:orange; border-bottom: 1px solid #d9d9d7;
-    display: inline-block;
-    color: #999;
-    padding: 2px;">{path_dict['tushuo']}</div>
-</div>
-"""
-        yield {
-            chat_bot_2: _chatbot,
-        }
-
-
-def chat_image(_input, _chatbot):
-    _chatbot.append([_input, None])
-    yield gr.update(interactive=False, value=None), _chatbot
-    _chatbot[-1][1] = [
-        create_image_bot_message("")
-    ]
-
-    time.sleep(1)
-    get_last_bot_message(_chatbot)[0][
-        "text"] = """你好，欢迎来到😶‍🌫️智慧启迪绘 \n
-        <accordion title="生成图片">
-
-        ![IMAGEGEN]("https://oss.lingkongstudy.com.cn/blog/202405261707489.jpg")
-
-        </accordion>"""
+    _chatbot[-1][1][0] += "Demo 版本因十万图书版权限制，不展示图片，请关注我们的**Github** [chg0901/Public_QiDiHui](https://github.com/chg0901/Public_QiDiHui.git) ，期待后续更新"
     yield {
         chat_bot_2: _chatbot,
     }
@@ -178,6 +144,10 @@ def chat_video(_input, _chatbot):
         <img src="https://oss.lingkongstudy.com.cn/blog/202405261707489.jpg" style="float: left;">
 
         </accordion>"""
+    yield {
+        chat_bot_3: _chatbot,
+    }
+    _chatbot[-1][1][0] += "Demo 版本因十万图书版权限制，不展示tts和视频生成，请关注我们的**Github** [chg0901/Public_QiDiHui](https://github.com/chg0901/Public_QiDiHui.git) ，期待后续更新"
     yield {
         chat_bot_3: _chatbot,
     }
