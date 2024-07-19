@@ -121,7 +121,8 @@ async def chat_bot_with_llm_image(_input: mgr.MultimodalInput, _chatbot):
                 chat_bot_2: _chatbot,
             }
 
-    _chatbot[-1][1][0] += "Demo 版本因十万图书版权限制，不展示图片，请关注我们的**Github** [chg0901/Public_QiDiHui](https://github.com/chg0901/Public_QiDiHui.git) ，期待后续更新"
+    _chatbot[-1][1][0] += '''\n
+    Demo 版本因十万图书版权限制，本项目代码只展示文生文功能，不展示tts和视频生成，请关注我们的**Github** [chg0901/Public_QiDiHui](https://github.com/chg0901/Public_QiDiHui.git) , 后续更新, 敬请期待'''
     yield {
         chat_bot_2: _chatbot,
     }
@@ -143,11 +144,9 @@ def chat_video(_input, _chatbot):
         <img src="https://oss.lingkongstudy.com.cn/blog/202405261707489.jpg" style="float: left;">
         <img src="https://oss.lingkongstudy.com.cn/blog/202405261707489.jpg" style="float: left;">
 
-        </accordion>"""
-    yield {
-        chat_bot_3: _chatbot,
-    }
-    _chatbot[-1][1][0] += "Demo 版本因十万图书版权限制，不展示tts和视频生成，请关注我们的**Github** [chg0901/Public_QiDiHui](https://github.com/chg0901/Public_QiDiHui.git) ，期待后续更新"
+        </accordion>
+    \n
+    Demo 版本因十万图书版权限制，本项目代码只展示文生文功能，不展示tts和视频生成，请关注我们的**Github** [chg0901/Public_QiDiHui](https://github.com/chg0901/Public_QiDiHui.git) , 后续更新, 敬请期待"""
     yield {
         chat_bot_3: _chatbot,
     }
@@ -201,10 +200,10 @@ with gr.Blocks(gr.themes.Soft(), css=css) as demo:
             <h1 style="text-align: center;">😶‍🌫️ 智慧启迪绘</h1>
 
             <p align="center">
-                <img src="https://oss.lingkongstudy.com.cn/blog/202405261707489.jpg" alt="Logo" width="20%" style="border-radius: 5px;">
+                <img src="https://oss.lingkongstudy.com.cn/blog/202405261707489.jpg" alt="Logo" width="10%" style="border-radius: 5px;">
             </p>
-            <div class="hint" style="text-align: center; background-color: rgba(255, 255, 0, 0.15); padding: 20px; margin: 20px; border-radius: 5px; border: 1px solid #ffcc00;">
-                <h3 align="center">智慧启迪绘展示了语言与智能技术的深度融合，旨在为用户带来全新的互动体验。</h3>
+            <div class="hint" style="text-align: center; background-color: rgba(255, 255, 0, 0.15); padding: 5px; margin: 5px; border-radius: 5px; border: 1px solid #ffcc00;">
+                <h3 align="center">我们致力于创造一个既能娱乐也能教育的视频生成应用，将《十万个为什么》系列丛书的丰富知识转化为易于消化和吸收理解的内容，使之成为亲子共读的桥梁，助力孩子们在轻松愉快的氛围中学习成长。在这里，学习将不再是枯燥的任务，而是充满乐趣和惊喜的旅程。让我们携手，为孩子们构建一个充满想象力和知识启迪的成长空间，一起见证《十万个为什么》系列丛书丰富有趣的知识魔力！</h3>
             </div>
 
         """
