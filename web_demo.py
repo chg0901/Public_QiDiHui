@@ -177,7 +177,7 @@ h1 {
   display: block;
 }
 """
-json_path = "list.json"
+json_path = "resources/list.json"
 
 avatar_images = [
     # resolve_assets('user.jpeg'),
