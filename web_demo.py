@@ -122,7 +122,7 @@ async def chat_bot_with_llm_image(_input: mgr.MultimodalInput, _chatbot):
             }
 
     _chatbot[-1][1][0] += '''\n
-    Demo 版本因十万图书版权限制，本项目代码只展示文生文功能，不展示tts和视频生成，请关注我们的**Github** [chg0901/Public_QiDiHui](https://github.com/chg0901/Public_QiDiHui.git) , 后续更新, 敬请期待'''
+    Demo 版本因十万图书版权限制，本项目代码只展示基础对话功能，不展示tts和视频生成，请关注我们的**Github** [chg0901/Public_QiDiHui](https://github.com/chg0901/Public_QiDiHui.git) , 后续更新, 敬请期待'''
     yield {
         chat_bot_2: _chatbot,
     }
@@ -146,7 +146,7 @@ def chat_video(_input, _chatbot):
 
         </accordion>
     \n
-    Demo 版本因十万图书版权限制，本项目代码只展示文生文功能，不展示tts和视频生成，请关注我们的**Github** [chg0901/Public_QiDiHui](https://github.com/chg0901/Public_QiDiHui.git) , 后续更新, 敬请期待"""
+    Demo 版本因十万图书版权限制，本项目代码只展示基础对话功能，不展示tts和视频生成，请关注我们的**Github** [chg0901/Public_QiDiHui](https://github.com/chg0901/Public_QiDiHui.git) , 后续更新, 敬请期待"""
     yield {
         chat_bot_3: _chatbot,
     }
