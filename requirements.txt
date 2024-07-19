@@ -3,6 +3,7 @@ erniebot_agent
 erniebot
 faiss_cpu
 gradio==4.21.0
+modelscope_studio
 urllib3
 langchain_community
 langchain_core
