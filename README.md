@@ -2,12 +2,12 @@
 
 <!-- PROJECT SHIELDS -->
 
-[![Contributors][contributors-shield]][contributors-url]
+<!-- [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![Stargazers][stars-shield]][stars-url]
-<br />
+<br /> -->
 
 ## 项目概述
 
@@ -72,9 +72,9 @@ python web_demo.py
 
 ![main.png](resources/main.png)
 
-## Star History
+<!-- ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=chg0901/Public_QiDiHui&type=Date)](https://star-history.com/#chg0901/Public_QiDiHui&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=chg0901/Public_QiDiHui&type=Date)](https://star-history.com/#chg0901/Public_QiDiHui&Date) -->
 
 ## Contributors
 
