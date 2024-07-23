@@ -68,7 +68,7 @@ python web_demo.py
 
 ### 部署成功后截图
 
-![main.png](resources/main.png)
+![](https://ai-studio-static-online.cdn.bcebos.com/279f504a36df433c863bd8d2db921fe87bbc2e05761c4e0b8d9b2e534c4c1fcf)
 
 ### 体验链接
 
