@@ -1,13 +1,14 @@
 # Public QiDiHui 
 
+<!---->
 <!-- PROJECT SHIELDS -->
 
-<!-- [![Contributors][contributors-shield]][contributors-url]
+[![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![Stargazers][stars-shield]][stars-url]
-<br /> -->
+<br /> 
 
 ## 项目概述
 
@@ -28,6 +29,9 @@
 > 以上亮点为我们项目的**完整功能**，并没有完全开源，**请为我们的项目Star以便关注最新更新**
 
 ## 主要文件功能介绍
+                   
+- 开源版本demo：[https://openxlab.org.cn/apps/detail/chg0901/Public_QiDiHui ](https://openxlab.org.cn/apps/detail/chg0901/Public_QiDiHui )              
+- AI Studio一键跑通教程： [https://aistudio.baidu.com/projectdetail/8185249](https://aistudio.baidu.com/projectdetail/8185249)
 
 - `requirements.txt`: 相关实验环境所需依赖包
 > GPU环境只需把faiss-cpu改为faiss-gpu即可, 可以加快建库
@@ -40,9 +44,11 @@
 
 ### B站视频: 【 LIC2024 RAG赛道智慧启迪绘】"十万个所以"团队 有关介绍视频
 
-- 【最新版本进展】https://www.bilibili.com/video/BV1yT8SejEQ8/ 
-- 【产品说明】https://www.bilibili.com/video/BV1kn4y1o7VY/ 
-- 【中期设计demo和进展】https://www.bilibili.com/video/BV1rb421q7xe/ 
+- 【最新版本进展】[https://www.bilibili.com/video/BV1yT8SejEQ8/](https://www.bilibili.com/video/BV1yT8SejEQ8/)
+- 【产品说明】[https://www.bilibili.com/video/BV1kn4y1o7VY/](https://www.bilibili.com/video/BV1kn4y1o7VY/)
+- 【中期设计demo和进展】[https://www.bilibili.com/video/BV1rb421q7xe/](https://www.bilibili.com/video/BV1rb421q7xe/)
+- 【智慧启迪绘】流式输出 超快响应 [https://www.bilibili.com/video/BV1ss8qejEQ5/](https://www.bilibili.com/video/BV1ss8qejEQ5/ ) 
+
 
 ## 启动部署方法
 
@@ -73,16 +79,22 @@ python web_demo.py
 ### 体验链接
 
 - 智慧启迪绘 基于文心erniebot 和千帆appbuilder 最新体验链接】
-1. AIStudio   ：https://aistudio.baidu.com/application/detail/40487 
-2. OpenXlab ：https://openxlab.org.cn/apps/detail/chg0901/QiDiHui_appbuilder_V2
-- 【开发版本1：智慧启迪绘 基于文心erniebot 体验链接】https://openxlab.org.cn/apps/detail/chg0901/QiDiHui
-- 【开发版本2：智慧启迪绘 基于千帆appbuilder 体验链接】https://openxlab.org.cn/apps/detail/chg0901/QiDiHui_appbuilder
+  
+1.AIStudio主体验链接[https://aistudio.baidu.com/application/detail/40487](https://aistudio.baidu.com/application/detail/40487)
+2. OpenXLab 全功能版本[https://openxlab.org.cn/apps/detail/chg0901/QiDiHui_appbuilder_V2](https://openxlab.org.cn/apps/detail/chg0901/QiDiHui_appbuilder_V2)
+  
+- 【开发版本1：智慧启迪绘 基于文心erniebot 体验链接】[https://openxlab.org.cn/apps/detail/chg0901/QiDiHui](https://openxlab.org.cn/apps/detail/chg0901/QiDiHui)
+- 【开发版本2：智慧启迪绘 基于千帆appbuilder 体验链接】[https://openxlab.org.cn/apps/detail/chg0901/QiDiHui_appbuilder](https://openxlab.org.cn/apps/detail/chg0901/QiDiHui_appbuilder)
 
-<!-- ## Star History
+## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=chg0901/Public_QiDiHui&type=Date)](https://star-history.com/#chg0901/Public_QiDiHui&Date) -->
+[![Star History Chart](https://api.star-history.com/svg?repos=chg0901/Public_QiDiHui&type=Date)](https://star-history.com/#chg0901/Public_QiDiHui&Date)
 
 ## Contributors: 十万个所以团队
+
+<a href="https://github.com/chg0901/test_app/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=chg0901/test_app" />
+</a>
 
 ### 团队成员来自RAG兴趣小组，分别是
 
@@ -94,15 +106,11 @@ python web_demo.py
 
 ### 团队过往开源项目 
 
-- 1. EmoLLM [ https://github.com/SmartFlowAI/EmoLLM ] 
-- 2. 食神 [https://github.com/SmartFlowAI/TheGodOfCookery] 
-- 3. 峡谷小狐仙 [https://github.com/chg0901/Honor_of_Kings_Multi-modal_Dataset]
+- 1. EmoLLM [https://github.com/SmartFlowAI/EmoLLM](https://github.com/SmartFlowAI/EmoLLM) 
+- 2. 食神 [https://github.com/SmartFlowAI/TheGodOfCookery](https://github.com/SmartFlowAI/TheGodOfCookery)
+- 3. 峡谷小狐仙 [https://github.com/chg0901/Honor_of_Kings_Multi-modal_Dataset](https://github.com/chg0901/Honor_of_Kings_Multi-modal_Dataset)
 - 4. 程宏和郭志航是Datawhale鲸英助教团成员
 
-
-<!-- <a href="https://github.com/chg0901/Public_QiDiHui/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=chg0901/Public_QiDiHui" />
-</a> -->
 
 [your-project-path]: chg0901/Public_QiDiHui
 [contributors-shield]: https://img.shields.io/github/contributors/chg0901/Public_QiDiHui.svg?style=flat-square
