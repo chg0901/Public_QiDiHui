@@ -92,10 +92,15 @@ python web_demo.py
 
 ## Contributors: 十万个所以团队
 
+<a href="https://github.com/chg0901/Public_QiDiHui/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=chg0901/Public_QiDiHui" />
+</a>
+
+<!--
 <a href="https://github.com/chg0901/test_app/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=chg0901/test_app" />
 </a>
-
+-->
 ### 团队成员来自RAG兴趣小组，分别是
 
 - 1. 来自韩国光云大学的 计算机工程博士生 程宏
