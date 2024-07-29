@@ -204,6 +204,24 @@ with gr.Blocks(gr.themes.Soft(), css=css) as demo:
             </p>
             <div class="hint" style="text-align: center; background-color: rgba(255, 255, 0, 0.15); padding: 5px; margin: 5px; border-radius: 5px; border: 1px solid #ffcc00;">
                 <h3 align="center">我们致力于创造一个既能娱乐也能教育的视频生成应用，将《十万个为什么》系列丛书的丰富知识转化为易于消化和吸收理解的内容，使之成为亲子共读的桥梁，助力孩子们在轻松愉快的氛围中学习成长。在这里，学习将不再是枯燥的任务，而是充满乐趣和惊喜的旅程。让我们携手，为孩子们构建一个充满想象力和知识启迪的成长空间，一起见证《十万个为什么》系列丛书丰富有趣的知识魔力！</h3>
+                <p> 为了方便在AIStudio中部署，在AIStudio中的部署中，开发团队对整体功能进行了解耦拆分，增加更多的点击触发互动功能</p> 
+                <p>
+                    【AIStudio 主体验地址】:
+                    <a href="https://aistudio.baidu.com/application/detail/40487" target="_blank">https://aistudio.baidu.com/application/detail/40487</a>
+                </p> 
+                <p>
+                    【AIStudio 备用体验地址】:
+                    <a href="https://aistudio.baidu.com/application/detail/42990" target="_blank">https://aistudio.baidu.com/application/detail/42990</a>
+                </p>
+                <p>
+                    【全功能版本请查看OpenXLab部署版本】:
+                    <a href="https://openxlab.org.cn/apps/detail/chg0901/QiDiHui_appbuilder_V2" target="_blank">https://openxlab.org.cn/apps/detail/chg0901/QiDiHui_appbuilder_V2</a>
+                </p>
+                <p>
+                    【B站介绍视频】:
+                    <a href="https://www.bilibili.com/video/BV1yT8SejEQ8/" target="_blank">B站 LIC2024 RAG赛道智慧启迪绘 "十万个所以"团队 有关介绍视频</a>
+                </p>
+
             </div>
 
         """
