@@ -2,7 +2,7 @@ beautifulsoup4
 erniebot_agent
 erniebot
 faiss_cpu
-gradio
+gradio==4.21.0
 modelscope_studio==0.3.0
 rank_bm25
 requests
