@@ -78,12 +78,17 @@ class FaissSearch:
         print("检索结束，耗时：", time.time() - start_time)
         retrieval_results = []
         score = len(docs)
+        print("初步检索结果")
         for doc in docs:
             # 遍历检索到的文档
             # 把答案从metadata中取出，作为检索结果返回
             # langchain的BM25检索器不返回score，只返回文档
             # 这里不进行过滤，而是直接用文档的顺序作为评分，靠前的文档评分高
-            print(doc)
+            print("question:", doc.page_content)
+            print("score:", score)
+            for key, value in doc.metadata.items():
+                print(key+": "+str(value))
+            print()
             retrieval_results.append(
                 {"content": doc.metadata["answer"], "score": score, "title": doc.page_content,
                  "image": doc.metadata["image"], "source_book": doc.metadata["source_book"],
@@ -141,8 +146,15 @@ def faiss_search_test(top_k=5, threshold=10):
     """
     faiss_search = FaissSearch(top_k=top_k, threshold=threshold)
     results = faiss_search.search("天上有多少颗星星")
+    print("FaissSearch类的测试结果")
     for result in results:
-        print(result)
+        print("content:", result["content"])
+        print("score:", result["score"])
+        print("title:", result["title"])
+        print("image:", result["image"])
+        print("source_book:", result["source_book"])
+        print("source_file:", result["source_file"])
+        print()
 
 
 def bm25_retriever_test(top_k=5):
@@ -150,9 +162,13 @@ def bm25_retriever_test(top_k=5):
     BM25检索器的测试函数
     """
     bm25_retriever = get_BM25_retriever(top_k)
-    results = bm25_retriever.get_relevant_documents("天上有多少颗星星")
-    for result in results:
-        print(result)
+    docs = bm25_retriever.get_relevant_documents("天上有多少颗星星")
+    print("BM25检索器的测试结果")
+    for doc in docs:
+        print("question:", doc.page_content)
+        for key, value in doc.metadata.items():
+            print(key + ": " + str(value))
+        print()
 
 
 if __name__ == "__main__":
