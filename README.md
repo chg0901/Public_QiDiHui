@@ -76,6 +76,52 @@ python web_demo.py
 
 ![](https://ai-studio-static-online.cdn.bcebos.com/279f504a36df433c863bd8d2db921fe87bbc2e05761c4e0b8d9b2e534c4c1fcf)
 
+## QiDiHui整体功能逻辑
+
+### 1. 总体图示
+
+QiDiHui的整体功能逻辑可以用下图表示：
+
+![](https://ai-studio-static-online.cdn.bcebos.com/44ca4894cb6f4400a3ab2b3482cc68a1341b638b226441d3bbedcfa454b483d5)
+
+### 2. 通过问题生成有声绘本
+
+QiDiHui支持直接通过一个问题生成有声绘本。
+
+- 若您体验的是OpenXLab上部署的版本：
+
+您可以直接在输入框中输入问题（下图1.a）或者在示例问题中选择问题（下图1.b）之后直接点击“输入问题，生成有声绘本”即可，在线文生图可能需要等待较长时间。
+
+![](https://ai-studio-static-online.cdn.bcebos.com/8a4f6aec13a747d2ae2feccadfb5010fc750870668a84577872e17ea21b0703f)
+
+- 若您体验的是星河社区上部署的版本：
+
+我们为了适配星河社区的部署环境，解耦了有声绘本生成的各个步骤。问题的输入方式不变，但您需要按照下图中的数字顺序依次点击按钮，才可以看到生成的有声绘本。
+
+<img src="https://ai-studio-static-online.cdn.bcebos.com/6f96d79aa11348108d6071f888210a3f95e7fae6964c41d69e1efc5de378817d" width="350"/>
+
+### 3. 通过故事生成有声绘本
+
+**注意：您的故事长度需要在50字以上才能触发剧本生成操作。**
+
+QiDiHui还支持通过现有的故事生成绘本。
+
+- 若您体验的是OpenXLab上部署的版本：
+
+您需要在输入框中输入您的故事，之后按照下图中数字顺序依次点击按钮，就可以看到生成的有声绘本了。
+
+![](https://ai-studio-static-online.cdn.bcebos.com/4d73a363b6fd4456b31f110f696255e8ad93e4bf444f40d09916118350e57b9b)
+
+- 若您体验的是星河社区上部署的版本：
+
+同样地，您需要按照下图中的数字顺序依次点击按钮，就可以看到生成结果了。
+![](https://ai-studio-static-online.cdn.bcebos.com/4fa5611c172a4c31b1c60ab2e8dcdc5f08652158f3bf4bc99fe076d3e9c4d8c5)
+
+### 4. 视频演示
+
+请点击[此处](https://www.bilibili.com/video/BV1yT8SejEQ8/?share_source=copy_web&vd_source=fb12a11d11545b5c1139ee0654f2f1c5)跳转到B站观看高清视频和其他合集视频, 欢迎给我们点赞收藏投币一键三连!
+
+
 ### 体验链接
 
 - 智慧启迪绘 基于文心erniebot 和千帆appbuilder 最新体验链接】
