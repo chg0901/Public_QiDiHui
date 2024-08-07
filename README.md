@@ -119,9 +119,8 @@ QiDiHui还支持通过现有的故事生成绘本。
 
 ### 4. 视频演示
 
-建议大家点击视频跳转到B站观看高清视频和其他合集视频, 欢迎给我们点赞收藏投币一键三连!
+请点击[此处](https://www.bilibili.com/video/BV1yT8SejEQ8/?share_source=copy_web&vd_source=fb12a11d11545b5c1139ee0654f2f1c5)跳转到B站观看高清视频和其他合集视频, 欢迎给我们点赞收藏投币一键三连!
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=112825989071606&bvid=BV1yT8SejEQ8&cid=500001622962439&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 1080px; height: 720px; transform-origin: center;"></iframe>
 
 ### 体验链接
 
