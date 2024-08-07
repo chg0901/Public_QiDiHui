@@ -42,6 +42,14 @@
 
 ## 有关宣传资料
 
+### 更新
+
+#### 08/07/2024 项目在Paddle AI Studio上被加精置顶
+
+![image](https://github.com/user-attachments/assets/5e33898a-baaf-49f1-a188-fd7f1219ebee)
+
+**《智慧启迪绘》项目介绍与【LIC2024 RAG赛道第一名方案】大揭秘！**：[https://aistudio.baidu.com/projectdetail/8185249](https://aistudio.baidu.com/projectdetail/8185249?channel=0&channelType=0&sUid=785756&shared=1&ts=1723035546414)
+
 ### B站视频: 【 LIC2024 RAG赛道智慧启迪绘】"十万个所以"团队 有关介绍视频
 
 - 【最新版本进展】[https://www.bilibili.com/video/BV1yT8SejEQ8/](https://www.bilibili.com/video/BV1yT8SejEQ8/)
